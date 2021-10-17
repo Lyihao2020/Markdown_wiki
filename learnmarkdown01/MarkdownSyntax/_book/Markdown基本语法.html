@@ -1,0 +1,706 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Markdown基本语法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Markdown进阶语法.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="Markdown基本语法.html">
+            
+                <a href="Markdown基本语法.html">
+            
+                    
+                    Markdown基本语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Markdown进阶语法.html">
+            
+                <a href="Markdown进阶语法.html">
+            
+                    
+                    Markdown进阶语法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="Math and_Academic_Functions.html">
+            
+                <a href="Math and_Academic_Functions.html">
+            
+                    
+                    Math and_Academic_Functions.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Markdown基本语法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>[TOC]</p>
+<h2 id="&#x4E00;markdown&#x7EAF;&#x6587;&#x672C;&#x57FA;&#x672C;&#x8BED;&#x6CD5;">&#x4E00;.Markdown&#x7EAF;&#x6587;&#x672C;&#x57FA;&#x672C;&#x8BED;&#x6CD5;</h2>
+<h2 id="here">1.&#x6807;&#x9898;</h2>
+<p>Markdown &#x652F;&#x6301;&#x4E24;&#x79CD;&#x6807;&#x9898;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x7C7B; Setext &#x548C;&#x7C7B; atx &#x5F62;&#x5F0F;&#x3002; &#x7C7B; Setext &#x5F62;&#x5F0F;&#x662F;&#x7528;&#x5E95;&#x7EBF;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;</p>
+<p>&#x5229;&#x7528; <strong>= &#xFF08;&#x6700;&#x9AD8;&#x9636;&#x6807;&#x9898;&#xFF09;</strong>&#x548C;<strong>- &#xFF08;&#x7B2C;&#x4E8C;&#x9636;&#x6807;&#x9898;&#xFF09;</strong>&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<h1 id="this-is-an-h1">This is an H1</h1>
+<h2 id="this-is-an-h2">This is an H2</h2>
+<pre><code>
+&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;
+
+This is an H1
+======
+
+This is an H2
+------
+
+P.S.     &#x4EFB;&#x4F55;&#x6570;&#x91CF;&#x7684; = &#x548C; - &#x90FD;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x679C;
+</code></pre><blockquote>
+<p>&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4E00;&#x70B9;&#xFF0C;&#x7531;&#x4E8E;&#x5206;&#x5272;&#x7EBF;&#x4E5F;&#x662F; &#x201C;----&#x201D;&#xFF0C; &#x56E0;&#x6B64;&#x5728;&#x4F7F;&#x7528;&#x5206;&#x5272;&#x7EBF;&#x65F6;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x7A7A;&#x4E00;&#x884C;&#xFF0C;&#x4E0D;&#x7136;&#x4F1A;&#x628A;&#x4E0A;&#x65B9;&#x7684;&#x6587;&#x5B57;&#x8BC6;&#x522B;&#x4E3A;&#x7B2C;&#x4E8C;&#x9636;&#x6807;&#x9898;&#x3002;&#x539F;&#x56E0;&#x4F1A;&#x5728;&#x540E;&#x9762;&#x7684;&#x6BB5;&#x843D;&#x548C;&#x6362;&#x884C;&#x4E2D;&#x8BF4;&#x5230;&#x3002;</p>
+</blockquote>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;&#xFF08;&#x4E09;&#x4E2A;-&#xFF09;</p>
+<hr>
+<p>&#x7C7B; Atx &#x5F62;&#x5F0F;&#x5219;&#x662F;&#x5728;&#x884C;&#x9996;&#x63D2;&#x5165; 1 &#x5230; 6 &#x4E2A; # &#xFF0C;&#x5BF9;&#x5E94;&#x5230;&#x6807;&#x9898; 1 &#x5230; 6 &#x9636;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p>
+<h1 id="this-is-h1">this is H1</h1>
+<h2 id="this-is-h2">this is H2</h2>
+<h3 id="this-is-h3">this is H3</h3>
+<p>......</p>
+<h6 id="this-is-h6">this is H6</h6>
+<p><strong>&#x6548;&#x679C;&#x4E0D;&#x518D;&#x5C55;&#x793A;&#xFF0C;&#x4F46;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x6807;&#x51C6;&#x8BED;&#x6CD5;&#x4E00;&#x822C;&#x5728; # &#x540E;&#x8DDF;&#x4E2A;&#x7A7A;&#x683C;&#x518D;&#x5199;&#x6587;&#x5B57;&#xFF0C;&#x4E0D;&#x7136;&#x53EF;&#x80FD;&#x4F1A;&#x65E0;&#x6CD5;&#x8BC6;&#x522B;</strong></p>
+<h2 id="2&#x5B57;&#x4F53;">2.&#x5B57;&#x4F53;</h2>
+<p><strong><em>Markdown &#x4F7F;&#x7528;&#x661F;&#x53F7;&#xFF08;&#xFF09;&#x548C;&#x5E95;&#x7EBF;&#xFF08;_&#xFF09;&#x4F5C;&#x4E3A;&#x6807;&#x8BB0;&#x5F3A;&#x8C03;&#x5B57;&#x8BCD;&#x7684;&#x7B26;&#x53F7;</em></strong>&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x968F;&#x4FBF;&#x7528;&#x4F60;&#x559C;&#x6B22;&#x7684;&#x6837;&#x5F0F;&#xFF0C;&#x552F;&#x4E00;&#x7684;&#x9650;&#x5236;&#x662F;&#xFF0C;&#x4F60;&#x7528;&#x4EC0;&#x4E48;&#x7B26;&#x53F7;&#x5F00;&#x542F;&#x6807;&#x7B7E;&#xFF0C;&#x5C31;&#x8981;&#x7528;&#x4EC0;&#x4E48;&#x7B26;&#x53F7;&#x7ED3;&#x675F;&#x3002;&#x4F46;&#x4E2A;&#x4EBA;&#x611F;&#x89C9;&#x5199;&#x4E2D;&#x6587;&#x65F6;&#x8FD8;&#x662F;&#xFF08;*&#xFF09;&#x6BD4;&#x8F83;&#x597D;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4E0D;&#x533A;&#x5206;&#x5168;&#x89D2;&#x534A;&#x89D2;&#xFF0C;&#x4E0D;&#x7528;&#x5207;&#x6362;&#x8F93;&#x5165;&#x6CD5;&#x3002; &#x4E3E;&#x4E2A;&#x6817;&#x5B50;&#x1F330;&#xFF1A;</p>
+<pre><code class="lang-html">**&#x8FD9;&#x662F;&#x52A0;&#x7C97;**
+__&#x8FD9;&#x4E5F;&#x662F;&#x52A0;&#x7C97;__
+*&#x8FD9;&#x662F;&#x503E;&#x659C;*
+_&#x8FD9;&#x4E5F;&#x662F;&#x503E;&#x659C;_
+***&#x8FD9;&#x662F;&#x52A0;&#x7C97;&#x503E;&#x659C;***
+~~&#x8FD9;&#x662F;&#x52A0;&#x5220;&#x9664;&#x7EBF;~~
+<span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>&#x6587;&#x5B57;&#x4E0B;&#x5212;&#x7EBF;&#x4F7F;&#x7528;HTML u &#x6807;&#x7B7E;<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span>
+==&#x9AD8;&#x4EAE;==
+</code></pre>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><strong>&#x8FD9;&#x662F;&#x52A0;&#x7C97;</strong>
+<strong>&#x8FD9;&#x4E5F;&#x662F;&#x52A0;&#x7C97;</strong>
+<em>&#x8FD9;&#x662F;&#x503E;&#x659C;</em>
+<em>&#x8FD9;&#x4E5F;&#x662F;&#x503E;&#x659C;</em>
+<strong><em>&#x8FD9;&#x662F;&#x52A0;&#x7C97;&#x503E;&#x659C;</em></strong></p>
+<p><del>&#x8FD9;&#x662F;&#x52A0;&#x5220;&#x9664;&#x7EBF;</del></p>
+<p><u>&#x6587;&#x5B57;&#x4E0B;&#x5212;&#x7EBF;&#x4F7F;&#x7528;HTML u &#x6807;&#x7B7E;</u></p>
+<p>==&#x9AD8;&#x4EAE;==</p>
+<hr>
+<p>&#x6CE8;&#x610F;&#xFF1A;</p>
+<p>1.&#x5F3A;&#x8C03;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x63D2;&#x5728;&#x6587;&#x5B57;&#x4E2D;&#x95F4;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x4F60;&#x7684; * &#x548C; _ &#x4E24;&#x8FB9;&#x90FD;&#x6709;&#x7A7A;&#x767D;&#x7684;&#x8BDD;&#xFF0C;&#x5B83;&#x4EEC;&#x5C31;&#x53EA;&#x4F1A;&#x88AB;&#x5F53;&#x6210;&#x666E;&#x901A;&#x7684;&#x7B26;&#x53F7;&#x3002; </p>
+<p>2.&#x5982;&#x679C;&#x8981;&#x5728;&#x6587;&#x5B57;&#x524D;&#x540E;&#x76F4;&#x63A5;&#x63D2;&#x5165;&#x666E;&#x901A;&#x7684;&#x661F;&#x53F7;&#x6216;&#x5E95;&#x7EBF;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x7528;&#x53CD;&#x659C;&#x7EBF; \ &#x3002;</p>
+<p>3.&#x4F7F;&#x7528; control + B &#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x5B57;&#x4F53;&#x52A0;&#x7C97;</p>
+<hr>
+<h2 id="3&#x5206;&#x5272;&#x7EBF;">3.&#x5206;&#x5272;&#x7EBF;</h2>
+<p>&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x4E00;&#x884C;&#x4E2D;&#x7528;&#x4E09;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684;&#x661F;&#x53F7;&#x3001;&#x51CF;&#x53F7;&#x3001;&#x5E95;&#x7EBF;&#x6765;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x5206;&#x9694;&#x7EBF;&#xFF0C;&#x884C;&#x5185;&#x4E0D;&#x80FD;&#x6709;&#x5176;&#x4ED6;&#x4E1C;&#x897F;&#x3002;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x661F;&#x53F7;&#x6216;&#x662F;&#x51CF;&#x53F7;&#x4E2D;&#x95F4;&#x63D2;&#x5165;&#x7A7A;&#x683C;&#x3002;&#x4E0B;&#x9762;&#x6BCF;&#x79CD;&#x5199;&#x6CD5;&#x90FD;&#x53EF;&#x4EE5;&#x5EFA;&#x7ACB;&#x5206;&#x9694;&#x7EBF;&#xFF1A;</p>
+<pre><code>* * *
+***
+**********
+- - -
+_________________
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h2 id="4&#x5F15;&#x7528;">4.&#x5F15;&#x7528;</h2>
+<p>&#x5728;&#x5F15;&#x7528;&#x7684;&#x6587;&#x5B57;&#x524D;&#x52A0;<strong>&gt;</strong>&#x5373;&#x53EF;&#x3002; &#x5728; Markdown &#x6587;&#x4EF6;&#x4E2D;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#x5F15;&#x7528;&#xFF0C;&#x90A3;&#x4F1A;&#x770B;&#x8D77;&#x6765;&#x50CF;&#x662F;&#x4F60;&#x81EA;&#x5DF1;&#x5148;&#x65AD;&#x597D;&#x884C;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x6BCF;&#x884C;&#x7684;&#x6700;&#x524D;&#x9762;&#x52A0;&#x4E0A;<strong>&gt;</strong>&#xFF1A;</p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt; 
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p><strong><em>Markdown &#x4E5F;&#x5141;&#x8BB8;&#x4F60;&#x5077;&#x61D2;&#x53EA;&#x5728;&#x6574;&#x4E2A;&#x6BB5;&#x843D;&#x7684;&#x7B2C;&#x4E00;&#x884C;&#x6700;&#x524D;&#x9762;&#x52A0;&#x4E0A; &gt; &#xFF1A;</em></strong></p>
+<p><em>&#x4F8B;&#x5982;&#xFF1A;</em></p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p><strong><em>&#x91CD;&#x8981;&#xFF1A;&#x533A;&#x5757;&#x5F15;&#x7528;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;&#x5F15;&#x7528;&#x5185;&#x7684;&#x5F15;&#x7528;&#xFF09;&#xFF0C;&#x53EA;&#x8981;&#x6839;&#x636E;&#x5C42;&#x6B21;&#x52A0;&#x4E0A;&#x4E0D;&#x540C;&#x6570;&#x91CF;&#x7684; &gt;  &#xFF0C; &#x5F15;&#x7528;&#x7684;&#x533A;&#x5757;&#x5185;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x5176;&#x4ED6;&#x7684; Markdown &#x8BED;&#x6CD5;&#xFF0C;&#x5305;&#x62EC;&#x6807;&#x9898;&#x3001;&#x5217;&#x8868;&#x3001;&#x4EE3;&#x7801;&#x533A;&#x5757;&#x7B49; &#xFF1A;</em></strong></p>
+<p>&#x4E3E;&#x4E2A;&#x6817;&#x5B50;&#x1F330;&#xFF1A;</p>
+<pre><code>&gt;# This is the first level of quoting.
+&gt;
+&gt; &gt; ## This is nested blockquote.
+&gt;
+&gt; &gt; &gt; &gt; ### Back to the first level.
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<h1 id="this-is-the-first-level-of-quoting">This is the first level of quoting.</h1>
+<blockquote>
+<h2 id="this-is-nested-blockquote">This is nested blockquote.</h2>
+<blockquote>
+<blockquote>
+<h3 id="back-to-the-first-level">Back to the first level.</h3>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="5&#x5217;&#x8868;">5.&#x5217;&#x8868;</h2>
+<p>Markdown &#x652F;&#x6301;&#x6709;&#x5E8F;&#x5217;&#x8868;&#x548C;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x3002; <strong>&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x4F7F;&#x7528;&#x661F;&#x53F7;&#x3001;&#x52A0;&#x53F7;&#x6216;&#x662F;&#x51CF;&#x53F7;&#x4F5C;&#x4E3A;&#x5217;&#x8868;&#x6807;&#x8BB0;</strong>&#x3002; &#x793A;&#x4F8B;&#xFF1A;</p>
+<pre><code>- &#x5217;&#x8868;&#x5185;&#x5BB9;
++ &#x5217;&#x8868;&#x5185;&#x5BB9;
+* &#x5217;&#x8868;&#x5185;&#x5BB9;
+
+&#x6CE8;&#x610F;&#xFF1A;- + * &#x8DDF;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x90FD;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;:</p>
+<ul>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li><p>&#x5217;&#x8868;&#x5185;&#x5BB9;</p>
+</li>
+<li><p>&#x5217;&#x8868;&#x5185;&#x5BB9;</p>
+</li>
+</ul>
+<p><strong>&#x6709;&#x5E8F;&#x5217;&#x8868;&#x5219;&#x4F7F;&#x7528;&#x6570;&#x5B57;&#x63A5;&#x7740;&#x4E00;&#x4E2A;&#x82F1;&#x6587;&#x53E5;&#x70B9;&#x4F5C;&#x4E3A;&#x6807;&#x8BB0;&#x3002; &#x793A;&#x4F8B;&#xFF1A;</strong></p>
+<pre><code>1. &#x5217;&#x8868;&#x5185;&#x5BB9;
+2. &#x5217;&#x8868;&#x5185;&#x5BB9;
+3. &#x5217;&#x8868;&#x5185;&#x5BB9;
+
+&#x6CE8;&#x610F;&#xFF1A;&#x5E8F;&#x53F7;&#x8DDF;&#x5185;&#x5BB9;&#x4E4B;&#x95F4;&#x8981;&#x6709;&#x7A7A;&#x683C;
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+</ol>
+<blockquote>
+<p><strong><em>&#x7A7A;&#x683C;&#x662F;&#x5173;&#x952E;&#x54E6;</em></strong></p>
+<p><strong><em>&#x5F88;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x70B9;&#x662F;&#xFF0C;&#x4F60;&#x5728;&#x5217;&#x8868;&#x6807;&#x8BB0;&#x4E0A;&#x4F7F;&#x7528;&#x7684;&#x6570;&#x5B57;&#x5E76;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x8F93;&#x51FA;&#x7684; HTML &#x7ED3;&#x679C;&#x3002;</em></strong></p>
+</blockquote>
+<pre><code>&#x4F60;&#x7684;&#x6807;&#x8BB0;&#x5199;&#x6210;&#xFF1A;
+1.  Bird
+1.  McHale
+1.  Parish
+
+&#x751A;&#x81F3;&#xFF1A;
+
+8. Bird
+1. McHale
+4. Parish
+
+&#x6548;&#x679C;&#x90FD;&#x4E00;&#x6837;&#x3002;
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<hr>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish </li>
+</ol>
+<blockquote>
+<p><strong><em>&#x6CE8;&#x610F;&#x7B2C;&#x4E8C;&#x4E2A;&#x6392;&#x5E8F;&#x662F; 8 &#xB7; 9 &#xB7; 10 &#xFF0C;&#x6548;&#x679C;&#x90FD;&#x4E00;&#x6837;&#xFF0C;&#x53EA;&#x6309;&#x7B2C;&#x4E00;&#x4E2A;&#x6570;&#x5B57;&#x6765;&#x6392;&#x5E8F;&#xFF0C;&#x56E0;&#x6B64;&#x7B2C;&#x4E00;&#x4E2A;&#x6700;&#x597D;&#x662F; 1</em></strong></p>
+<p><strong><em>&#x5217;&#x8868;&#x53EF;&#x4EE5;&#x5D4C;&#x5957;&#xFF0C;&#x4E0A;&#x4E00;&#x7EA7;&#x548C;&#x4E0B;&#x4E00;&#x7EA7;&#x4E4B;&#x95F4;&#x6572;&#x4E09;&#x4E2A;&#x7A7A;&#x683C;&#x5373;&#x53EF;&#x3002;</em></strong></p>
+</blockquote>
+<p>&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>* &#x4E00;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;
+
+   * &#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;
+   * &#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;
+   * &#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li><p>&#x4E00;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;</p>
+<ul>
+<li>&#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+<li>&#x4E8C;&#x7EA7;&#x65E0;&#x5E8F;&#x5217;&#x8868;&#x5185;&#x5BB9;</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong><em>&#x8981;&#x8BA9;&#x5217;&#x8868;&#x770B;&#x8D77;&#x6765;&#x66F4;&#x6F02;&#x4EAE;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x628A;&#x5185;&#x5BB9;&#x7528;&#x56FA;&#x5B9A;&#x7684;&#x7F29;&#x8FDB;&#x6574;&#x7406;&#x597D;&#xFF1A;</em></strong></p>
+</blockquote>
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing
+</code></pre><p>&#x5077;&#x61D2;&#x7684;&#x5199;&#x6CD5;&#x4E5F;&#x53EF;&#x4EE5;&#xFF1A;</p>
+<pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre><p>&#x4E24;&#x79CD;&#x6548;&#x679C;&#x90FD;&#x4E00;&#x6837;&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing</li>
+</ul>
+<p><strong><em>&#x5217;&#x8868;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x591A;&#x4E2A;&#x6BB5;&#x843D;&#xFF0C;&#x6BCF;&#x4E2A;&#x9879;&#x76EE;&#x4E0B;&#x7684;&#x6BB5;&#x843D;&#x90FD;&#x5FC5;&#x987B;&#x7F29;&#x8FDB; 4 &#x4E2A;&#x7A7A;&#x683C;&#x6216;&#x662F; 1 &#x4E2A;&#x5236;&#x8868;&#x7B26;&#xFF08;&#x5BF9;&#x9F50;&#x66F4;&#x52A0;&#x7F8E;&#x89C2;&#xFF09;&#xFF1A;</em></strong></p>
+<pre><code>1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.
+
+        Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit.
+
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li><p>This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.</p>
+<pre><code>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+</code></pre><p>//&#x8FD9;&#x91CC;&#x4EE3;&#x7801;&#x6846;&#x91CC;&#x7684;&#x662F;&#x7528; &#x4E24;&#x4E2A; tab &#x9020;&#x51FA;&#x6765;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x53EA;&#x662F;&#x5355;&#x7EAF;&#x7684;&#x5BF9;&#x9F50;&#xFF0C;&#x800C;&#x4E0D;&#x662F;tab&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x6CA1;&#x6709;&#x9ED1;&#x6846;</p>
+<p>vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.</p>
+</li>
+<li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
+</li>
+</ol>
+<p><strong><em>&#x5982;&#x679C;&#x4F60;&#x6BCF;&#x884C;&#x90FD;&#x6709;&#x7F29;&#x8FDB;&#xFF0C;&#x770B;&#x8D77;&#x6765;&#x4F1A;&#x770B;&#x597D;&#x5F88;&#x591A;&#xFF0C;&#x5F53;&#x7136;&#xFF0C;&#x518D;&#x6B21;&#x5730;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x5F88;&#x61D2;&#x60F0;&#xFF0C;Markdown &#x4E5F;&#x5141;&#x8BB8;&#xFF1A;</em></strong></p>
+<pre><code>*   This is a list item with two paragraphs.
+
+    This is the second paragraph in the list item. You&apos;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.
+
+*   Another item in the same list.
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li><p>This is a list item with two paragraphs.</p>
+<p>This is the second paragraph in the list item. You&apos;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p>
+</li>
+<li><p>Another item in the same list.</p>
+</li>
+</ul>
+<p><strong><em> &#x6B64;&#x5916;&#xFF1A;&#x5982;&#x679C;&#x8981;&#x5728;&#x5217;&#x8868;&#x9879;&#x76EE;&#x5185;&#x653E;&#x8FDB;&#x5F15;&#x7528;&#xFF0C;&#x90A3; &gt; &#x5C31;&#x9700;&#x8981;&#x7F29;&#x8FDB;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x653E;&#x4EE3;&#x7801;&#x533A;&#x5757;&#x7684;&#x8BDD;&#xFF0C;&#x8BE5;&#x533A;&#x5757;&#x5C31;&#x9700;&#x8981;&#x7F29;&#x8FDB;&#x4E24;&#x6B21;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; 8 &#x4E2A;&#x7A7A;&#x683C;&#x6216;&#x662F; 2 &#x4E2A;&#x5236;&#x8868;&#x7B26;&#x3002;</em></strong></p>
+<pre><code>1.    &gt; &#x4F7F;&#x7528;tab&#x7F29;&#x8FDB;
+2.
+</code></pre><pre><code>
+&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;
+1.    &gt; &#x4F7F;&#x7528;tab&#x7F29;&#x8FDB;
+2.        ```markdown
+
+
+
+## 6.&#x8868;&#x683C;
+
+&#x793A;&#x4F8B;&#xFF1A;
+
+```markdown
+&#x8868;&#x5934;|&#x8868;&#x5934;|&#x8868;&#x5934;
+---|:--:|---:
+1|2|3
+4|5|6
+
+&#x8868;&#x5934;|&#x8868;&#x5934;|&#x8868;&#x5934;
+---|---|---
+1|2|3
+4|5|6
+
+**&#x7B2C;&#x4E8C;&#x884C;&#x5206;&#x5272;&#x8868;&#x5934;&#x548C;&#x5185;&#x5BB9;&#x3002;**
+- &#x6709;&#x4E00;&#x4E2A;&#x5C31;&#x884C;&#xFF0C;&#x4E3A;&#x4E86;&#x5BF9;&#x9F50;&#xFF0C;&#x591A;&#x52A0;&#x4E86;&#x51E0;&#x4E2A;
+&#x6587;&#x5B57;&#x9ED8;&#x8BA4;&#x5C45;&#x5DE6;
+-&#x4E24;&#x8FB9;&#x52A0;&#xFF1A;&#x8868;&#x793A;&#x6587;&#x5B57;&#x5C45;&#x4E2D;
+-&#x53F3;&#x8FB9;&#x52A0;&#xFF1A;&#x8868;&#x793A;&#x6587;&#x5B57;&#x5C45;&#x53F3;
+&#x6CE8;&#xFF1A;&#x539F;&#x751F;&#x7684;&#x8BED;&#x6CD5;&#x4E24;&#x8FB9;&#x90FD;&#x8981;&#x7528; | &#x5305;&#x8D77;&#x6765;&#x3002;&#x6B64;&#x5904;&#x7701;&#x7565;
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<table>
+<thead>
+<tr>
+<th>&#x8868;&#x5934;</th>
+<th style="text-align:center">&#x8868;&#x5934;</th>
+<th style="text-align:right">&#x8868;&#x5934;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td style="text-align:center">2</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td>4</td>
+<td style="text-align:center">5</td>
+<td style="text-align:right">6</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>&#x8868;&#x5934;</th>
+<th>&#x8868;&#x5934;</th>
+<th>&#x8868;&#x5934;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7&#x4EE3;&#x7801;">7.&#x4EE3;&#x7801;</h2>
+<p>&#x5728;Markdown&#x4E2D;&#x52A0;&#x5165;&#x4EE3;&#x7801;&#x5757;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#xFF1A; </p>
+<p><strong><em>&#x7B2C;&#x4E00;&#x79CD;&#xFF0C;&#x53EA;&#x8981;&#x7B80;&#x5355;&#x5730;&#x7F29;&#x8FDB; 4 &#x4E2A;&#x7A7A;&#x683C;&#x6216;&#x662F; 1 &#x4E2A;&#x5236;&#x8868;&#x7B26;&#x5C31;&#x53EF;&#x4EE5;</em></strong>&#xFF0C;</p>
+<pre><code>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x6BB5;&#x843D;&#xFF1A;
+
+    &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x533A;&#x5757;&#x3002;
+
+(&#x5F53;&#x7136;&#xFF0C;&#x524D;&#x9762;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x7A7A;&#x884C;&#x548C;&#x524D;&#x9762;&#x7684;&#x6587;&#x5B57;&#x5206;&#x9694;&#x5F00;)
+</code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x666E;&#x901A;&#x6BB5;&#x843D;&#xFF1A;</p>
+<pre><code>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x4EE3;&#x7801;&#x533A;&#x5757;&#x3002;
+</code></pre><p><strong><em>&#x7B2C;&#x4E8C;&#x79CD;&#x65B9;&#x6CD5;&#x4F3C;&#x4E4E;&#x662F;&#x66F4;&#x4E3A;&#x5E38;&#x7528;&#xFF0C; &#x5355;&#x884C;&#x4EE3;&#x7801;&#x4EE3;&#x7801;&#x4E4B;&#x95F4;&#x5206;&#x522B;&#x7528;&#x4E00;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x8D77;&#x6765;&#x5373;&#x53EF;</em></strong></p>
+<pre><code class="lang-text">&#x8FD9;&#x91CC;&#x6709;&#x4E00;&#x53E5;&#x4EE3;&#x7801;`&#x4EE3;&#x7801;&#x5185;&#x5BB9;`&#x3002;
+</code></pre>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code>    &#x8FD9;&#x91CC;&#x6709;&#x4E00;&#x53E5;&#x4EE3;&#x7801;`&#x4EE3;&#x7801;&#x5185;&#x5BB9;`&#x3002;
+</code></pre><p><strong><em>&#x4EE3;&#x7801;&#x5757;&#xFF1A;&#x4EE3;&#x7801;&#x4E4B;&#x95F4;&#x5206;&#x522B;&#x7528;&#x4E09;&#x4E2A;&#x53CD;&#x5F15;&#x53F7;&#x5305;&#x8D77;&#x6765;&#xFF0C;&#x4E14;&#x4E24;&#x8FB9;&#x7684;&#x53CD;&#x5F15;&#x53F7;&#x5355;&#x72EC;&#x5360;&#x4E00;&#x884C;</em></strong></p>
+<p><strong><em>&#x5728;&#x4E0A;&#x9762;&#x7684; ``` &#x540E;&#x9762;&#x6CE8;&#x660E;&#x4F60;&#x7684;&#x4EE3;&#x7801;&#x7C7B;&#x578B;&#xFF0C;&#x53EF;&#x4EE5;&#x4EA7;&#x751F;&#x76F8;&#x5E94;&#x7684;&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;</em></strong></p>
+<pre><code class="lang-text">```c
+    #include&lt;studio.h&gt;
+    int main(){
+    return 0;
+    }
+```
+\ &#x662F;&#x4E3A;&#x4E86;&#x9632;&#x6B62;&#x8F6C;&#x8BD1;&#xFF0C;&#x5B9E;&#x9645;&#x662F;&#x6CA1;&#x6709;&#x7684;&#x3002;
+</code></pre>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-c">    <span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;studio.h&gt;</span></span>
+    <span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+</code></pre>
+<p><strong><em>&#x4EE3;&#x7801;&#x9AD8;&#x4EAE;&#x6D88;&#x9664;&#x7B26;&#x53F7;</em></strong></p>
+<pre><code>    #include&lt;studio.h&gt;
+    int main(){
+    return 0;
+    } //&#x7528;&#xFF5E;&#xFF5E;&#xFF5E;&#x9020;&#x51FA;&#x4EE3;&#x7801;&#x6846;
+</code></pre><hr>
+<h2 id="8&#x6BB5;&#x843D;&#x548C;&#x6362;&#x884C;">8.&#x6BB5;&#x843D;&#x548C;&#x6362;&#x884C;</h2>
+<p>&#x4E00;&#x4E2A; Markdown &#x6BB5;&#x843D;&#x662F;&#x7531;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x8FDE;&#x7EED;&#x7684;&#x6587;&#x672C;&#x884C;&#x7EC4;&#x6210;&#xFF0C;&#x5B83;&#x7684;&#x524D;&#x540E;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684;&#x7A7A;&#x884C;&#xFF08;<strong>&#x7A7A;&#x884C;&#x7684;&#x5B9A;&#x4E49;&#x662F;&#x663E;&#x793A;&#x4E0A;&#x770B;&#x8D77;&#x6765;&#x50CF;&#x662F;&#x7A7A;&#x7684;&#xFF0C;&#x4FBF;&#x4F1A;&#x88AB;&#x89C6;&#x4E3A;&#x7A7A;&#x884C;&#x3002;&#x6BD4;&#x65B9;&#x8BF4;&#xFF0C;&#x82E5;&#x67D0;&#x4E00;&#x884C;&#x53EA;&#x5305;&#x542B;&#x7A7A;&#x683C;&#x548C;&#x5236;&#x8868;&#x7B26;&#xFF0C;&#x5219;&#x8BE5;&#x884C;&#x4E5F;&#x4F1A;&#x88AB;&#x89C6;&#x4E3A;&#x7A7A;&#x884C;</strong>&#xFF09;&#x3002;<strong>&#x666E;&#x901A;&#x6BB5;&#x843D;&#x4E0D;&#x8BE5;&#x7528;&#x7A7A;&#x683C;&#x6216;&#x5236;&#x8868;&#x7B26;&#x6765;&#x7F29;&#x8FDB;</strong>&#x3002; <strong>&#x6211;&#x4EEC;&#x5728;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x5B57;&#x5757;&#x4E4B;&#x95F4;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x7A7A;&#x884C;&#x4EE5;&#x793A;&#x533A;&#x5206;&#xFF0C;&#x4E0D;&#x7136;&#x5C31;&#x4F1A;&#x88AB;&#x5F52;&#x5165;&#x540C;&#x4E00;&#x6587;&#x5B57;&#x5757;&#x4E2D;&#x3002;</strong> Markdown &#x5141;&#x8BB8;&#x6BB5;&#x843D;&#x5185;&#x7684;&#x5F3A;&#x8FEB;&#x6362;&#x884C;&#xFF08;&#x63D2;&#x5165;&#x6362;&#x884C;&#x7B26;&#xFF09;&#x3002; <strong>&#x5982;&#x679C;&#x60F3;&#x8981;&#x7A7A;&#x4E00;&#x884C;&#xFF0C;&#x5728;&#x63D2;&#x5165;&#x5904;&#x5148;&#x6309;&#x5165;&#x4E24;&#x4E2A;&#x4EE5;&#x4E0A;&#x7684;&#x7A7A;&#x683C;&#x7136;&#x540E;&#x56DE;&#x8F66;</strong>&#xFF0C;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x4F46;&#x6709;&#x65F6;&#x4E5F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6807;&#x8BB0;&#x6765;&#x5F3A;&#x5236;&#x7A7A;&#x884C;&#x548C;&#x7A7A;&#x683C;&#xFF0C;&#x6BD4;&#x5982;&#x9700;&#x8981;&#x9996;&#x884C;&#x7F29;&#x8FDB;&#x7684;&#x65F6;&#x5019;&#xFF1A;</p>
+<p><strong>&#x683C;&#x5F0F;&#xFF1A;</strong></p>
+<pre><code>&amp;ensp;&#xFF1A;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;
+&amp;nbsp;&#xFF1A;&#x8F93;&#x5165;&#x4E00;&#x4E2A;&#x7A7A;&#x683C;
+&amp;emsp;&#xFF1A;&#x8F93;&#x5165;&#x4E24;&#x4E2A;&#x7A7A;&#x683C;
+</code></pre><p><strong>&#x6CE8;&#x610F;&#xFF1A;</strong>&#x4E0D;&#x8981;&#x5FD8;&#x8BB0;&#x5206;&#x53F7;</p>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<p>&amp;&#x2003;&#x2003;&#x2003;&#x79EF;&#x571F;&#x6210;&#x5C71;&#xFF0C;&#x98CE;&#x96E8;&#x5174;&#x7109;&#xFF1B;&#x79EF;&#x6C34;&#x6210;&#x6E0A;&#xFF0C;...   //&amp;&#x540E;&#x9762;&#x6709;&#x4E2A;&#x56DB;&#x4E2A;&#x7A7A;&#x683C;</p>
+<hr>
+<h2 id="9&#x4EE3;&#x529E;&#x5217;&#x8868;">9.&#x4EE3;&#x529E;&#x5217;&#x8868;</h2>
+<p><code>&#x5F85;&#x529E;&#x5217;&#x8868;</code> &#x53EF;&#x4EE5;&#x8868;&#x793A;&#x4EFB;&#x52A1;&#x7684;&#x5904;&#x7406;&#x72B6;&#x6001;&#xFF0C;<code>-[]</code>&#x8868;&#x793A;<code>&#x5F85;&#x529E;</code>&#x72B6;&#x6001;&#xFF0C;<code>-[X]</code> &#x8868;&#x793A;<code>&#x5DF2;&#x529E;</code>&#x72B6;&#x6001;&#xFF1A;</p>
+<pre><code class="lang-text">- [ ] &#x5F85;&#x529E;&#x4EFB;&#x52A1;1
+- [ ] &#x5F85;&#x529E;&#x4EFB;&#x52A1;2
+- [x] &#x5DF2;&#x529E;&#x4EFB;&#x52A1;
+</code></pre>
+<p>&#x5176;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>[ ] &#x5F85;&#x529E;&#x4EFB;&#x52A1;1</li>
+<li>[ ] &#x5F85;&#x529E;&#x4EFB;&#x52A1;2</li>
+<li>[x] &#x5DF2;&#x529E;&#x4EFB;&#x52A1;</li>
+</ul>
+<p><strong>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x6709;&#x4E9B;&#x7F51;&#x7AD9;&#x53EF;&#x80FD;&#x4E0D;&#x652F;&#x6301;<code>&#x5F85;&#x529E;&#x5217;&#x8868;</code></strong></p>
+<hr>
+<h2 id="10&#x4F7F;&#x7528;&#x951A;&#x70B9;">10.&#x4F7F;&#x7528;&#x951A;&#x70B9;</h2>
+<p>&#x4F7F;&#x7528;<code>&#x951A;&#x70B9;</code>&#xFF0C;&#x9996;&#x5148;&#x662F;&#x5148;<code>&#x5B9A;&#x4E49;&#x951A;&#x70B9;</code>&#xFF0C;&#x7136;&#x540E;&#x518D;<code>&#x5F15;&#x7528;&#x951A;&#x70B9;</code>&#x3002;</p>
+<p><code>&#x5B9A;&#x4E49;&#x951A;&#x70B9;</code>&#x662F;&#x5728;&#x4E00;&#x4E2A;<code>&#x6807;&#x9898;</code> &#x7684;&#x540E;&#x8FB9;&#x52A0;&#x4E0A;<code>{#&#x951A;&#x70B9;&#x540D;&#x79F0;}</code>&#xFF0C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-text">### &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x951A;&#x70B9;{#here}
+</code></pre>
+<p>&#x7136;&#x540E;&#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x683C;&#x5F0F;<code>&#x4F7F;&#x7528;&#x951A;&#x70B9;</code>&#xFF0C;<code>&#x4E2D;&#x62EC;&#x53F7;</code>&#x5185;&#x662F;<code>&#x951A;&#x70B9;&#x63CF;&#x8FF0;</code>&#xFF0C;<code>&#x5C0F;&#x62EC;&#x53F7;</code>&#x5185;&#x662F;<code>&#x951A;&#x70B9;&#x540D;&#x79F0;</code>&#xFF1A;</p>
+<pre><code class="lang-text">&#x8DF3;&#x8F6C;&#x5230;[&#x951A;&#x70B9;](#here)
+</code></pre>
+<p><strong><em>&#x663E;&#x793A;&#x6548;&#x679C;&#x4EE5;&#x6807;&#x9898;&#x4E00;&#x4E3A;&#x4F8B;</em></strong></p>
+<p>&#x8DF3;&#x8F6C;&#x5230;<a href="#here">&#x6807;&#x9898;&#x4E00;</a></p>
+<hr>
+<h2 id="11&#x6BB5;&#x843D;">11.&#x6BB5;&#x843D;</h2>
+<p>&#x6309;&#x6362;&#x884C;&#x952E;[Enter]&#x5EFA;&#x7ACB;&#x65B0;&#x7684;&#x4E00;&#x884C;,<strong><em>&#x6309;<code>Shift</code>+<code>Enter</code>&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6BD4;&#x6BB5;&#x843D;&#x95F4;&#x8DDD;&#x66F4;&#x5C0F;&#x7684;&#x884C;&#x95F4;&#x8DDD;</em></strong>&#x3002;&#x53EF;&#x5728;&#x884C;&#x5C3E;&#x63D2;&#x5165;&#x6253;&#x65AD;&#x7EBF;&#xFF0C;&#x7981;&#x6B62;&#x5411;&#x540E;&#x63D2;&#x5165;</p>
+<pre><code class="lang-text">&#x6253;&#x65AD;&#x7EBF;&lt;br/&gt;&#x540E;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x5C06;&#x81EA;&#x52A8;&#x6362;&#x884C;
+</code></pre>
+<hr>
+<h3 id="&#x5E38;&#x7528;&#x5FEB;&#x6377;&#x952E;">&#x5E38;&#x7528;&#x5FEB;&#x6377;&#x952E;</h3>
+<ul>
+<li>&#x52A0;&#x7C97;&#xFF1A; <code>Ctrl + B</code></li>
+<li>&#x64A4;&#x9500;&#xFF1A; <code>Ctrl + Z</code></li>
+<li>&#x5B57;&#x4F53;&#x503E;&#x659C; &#xFF1A;<code>Ctrl+I</code></li>
+<li>&#x4E0B;&#x5212;&#x7EBF;&#xFF1A;<code>Ctrl+U</code></li>
+<li>&#x591A;&#x7EA7;&#x6807;&#x9898;&#xFF1A; <code>Ctrl + 1~6</code></li>
+<li>&#x6709;&#x5E8F;&#x5217;&#x8868;&#xFF1A;<code>Ctrl + Shift + [</code></li>
+<li>&#x65E0;&#x5E8F;&#x5217;&#x8868;&#xFF1A;<code>Ctrl + Shift + ]</code></li>
+<li>&#x964D;&#x7EA7;&#x5FEB;&#x6377;&#x952E; &#xFF1A;<code>Tab</code></li>
+<li>&#x5347;&#x7EA7;&#x5FEB;&#x6377;&#x952E;&#xFF1A;<code>Shift + Tab</code></li>
+<li>&#x63D2;&#x5165;&#x94FE;&#x63A5;&#xFF1A; <code>Ctrl + K</code></li>
+<li>&#x63D2;&#x5165;&#x516C;&#x5F0F;&#xFF1A; <code>Ctrl + Shift + M</code></li>
+<li>&#x884C;&#x5185;&#x4EE3;&#x7801;&#xFF1A; <code>Ctrl + Shift + K</code></li>
+<li>&#x63D2;&#x5165;&#x56FE;&#x7247;&#xFF1A; <code>Ctrl + Shift + I</code></li>
+<li>&#x8FD4;&#x56DE;Typora&#x9876;&#x90E8;&#xFF1A;<code>Ctrl+Home</code></li>
+<li>&#x8FD4;&#x56DE;Typora&#x5E95;&#x90E8; &#xFF1A;<code>Ctrl+End</code></li>
+<li>&#x521B;&#x5EFA;&#x8868;&#x683C; &#xFF1A;<code>Ctrl+T</code></li>
+<li>&#x9009;&#x4E2D;&#x67D0;&#x53E5;&#x8BDD; &#xFF1A;<code>Ctrl+L</code></li>
+<li>&#x9009;&#x4E2D;&#x67D0;&#x4E2A;&#x5355;&#x8BCD; &#xFF1A;<code>Ctrl+D</code></li>
+<li>&#x9009;&#x4E2D;&#x76F8;&#x540C;&#x683C;&#x5F0F;&#x7684;&#x6587;&#x5B57; &#xFF1A;<code>Ctrl+E</code></li>
+<li>&#x641C;&#x7D22;: <code>Ctrl+F</code></li>
+<li>&#x641C;&#x7D22;&#x5E76;&#x66FF;&#x6362; &#xFF1A;<code>Ctrl+H</code></li>
+<li>&#x5220;&#x9664;&#x7EBF; &#xFF1A;<code>Alt+Shift+5</code></li>
+<li>&#x5F15;&#x7528; &#xFF1A;<code>Ctrl+Shift+Q</code></li>
+<li>&#x751F;&#x6210;&#x76EE;&#x5F55;&#xFF1A;<code>[TOC]+Enter</code></li>
+<li>&#x6253;&#x5F00;&#x6E90;&#x7801;&#x6A21;&#x5F0F;&#xFF1A;<code>control + /</code></li>
+</ul>
+<p>&#x6CE8;&#xFF1A;&#x4E00;&#x4E9B;&#x5B9E;&#x4F53;&#x7B26;&#x53F7;&#x9700;&#x8981;&#x5728;&#x5B9E;&#x4F53;&#x7B26;&#x53F7;&#x4E4B;&#x524D;&#x52A0;&#x201D; \ &#x201D;&#x624D;&#x80FD;&#x591F;&#x663E;&#x793A;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="Markdown进阶语法.html" class="navigation navigation-next " aria-label="Next page: Markdown进阶语法">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Markdown基本语法","level":"1.2","depth":1,"next":{"title":"Markdown进阶语法","level":"1.3","depth":1,"path":"Markdown进阶语法.md","ref":"Markdown进阶语法.md","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Markdown基本语法.md","mtime":"2021-10-17T05:56:23.570Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-10-17T07:08:37.876Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
